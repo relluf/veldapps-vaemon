@@ -1,0 +1,27 @@
+{
+    "baseUrl": "src/",
+    "paths": {
+        "ace": "C:/Users/ralph/Source/veldapps.com/vcl/lib/ajax.org/ace/lib/ace",
+        "cavalion.org": "C:/Users/ralph/Source/veldapps.com/vcl/lib/cavalion.org",
+        "chartjs.org": "C:/Users/ralph/Source/veldapps.com/vcl/lib/chartjs.org",
+        "dygraphs.com": "C:/Users/ralph/Source/veldapps.com/vcl/lib/dygraphs.com/1.0.1",
+        "js": "C:/Users/ralph/Source/veldapps.com/vcl/lib/cavalion.org/js",
+        "persistence": "C:/Users/ralph/Source/veldapps.com/vcl/lib/cavalion.org/persistence2",
+        "entities": "C:/Users/ralph/Source/veldapps.com/vcl/lib/cavalion.org/entities",
+        "linq": "C:/Users/ralph/Source/veldapps.com/vcl/lib/linq-2.2.0.2",
+        "leaflet": "C:/Users/ralph/Source/veldapps.com/vcl/lib/leafletjs.com/leaflet-0.7.2/leaflet-boot",
+        "text": "C:/Users/ralph/Source/veldapps.com/vcl/lib/text",
+        "vcl": "C:/Users/ralph/Source/veldapps.com/vcl/lib/cavalion.org/vcl"
+    },
+    "name": "main",
+    "out": "src/lib.js",
+    "optimize": "uglify",
+    "uglify": {
+        "beatify": true
+    },
+    "wrap": {
+        "start": "(function() {",
+        "end": "require(['app'], function() { require(['main']); })}());"
+    },
+    "include": ["ace/ace","ace/anchor","ace/background_tokenizer","ace/commands/command_manager","ace/commands/default_commands","ace/commands/multi_select_commands","ace/config","ace/document","ace/edit_session","ace/edit_session/bracket_match","ace/edit_session/fold","ace/edit_session/fold_line","ace/edit_session/folding","ace/editor","ace/ext/error_marker","ace/keyboard/hash_handler","ace/keyboard/keybinding","ace/keyboard/textinput","ace/layer/cursor","ace/layer/font_metrics","ace/layer/gutter","ace/layer/marker","ace/layer/text","ace/lib/dom","ace/lib/es5-shim","ace/lib/event","ace/lib/event_emitter","ace/lib/fixoldbrowsers","ace/lib/keys","ace/lib/lang","ace/lib/net","ace/lib/oop","ace/lib/regexp","ace/lib/useragent","ace/line_widgets","ace/mode/behaviour","ace/mode/folding/fold_mode","ace/mode/text","ace/mode/text_highlight_rules","ace/mouse/default_gutter_handler","ace/mouse/default_handlers","ace/mouse/dragdrop_handler","ace/mouse/fold_handler","ace/mouse/mouse_event","ace/mouse/mouse_handler","ace/mouse/multi_select_handler","ace/multi_select","ace/placeholder","ace/range","ace/range_list","ace/renderloop","ace/requirejs/text","ace/scrollbar","ace/search","ace/search_highlight","ace/selection","ace/theme/textmate","ace/token_iterator","ace/tokenizer","ace/tooltip","ace/undomanager","ace/unicode","ace/virtual_renderer","ace/worker/worker_client","cavalion.org/Command","cavalion.org/console/Node","cavalion.org/console/Printer","cavalion.org/console/node/Array","cavalion.org/console/node/Boolean","cavalion.org/console/node/Deferred","cavalion.org/console/node/Error","cavalion.org/console/node/Function","cavalion.org/console/node/MethodStack","cavalion.org/console/node/Null","cavalion.org/console/node/Number","cavalion.org/console/node/Object","cavalion.org/console/node/OnlyKey","cavalion.org/console/node/String","cavalion.org/console/node/Undefined","cavalion.org/console/node/vcl/Component","cavalion.org/data/Source","cavalion.org/data/SourceEvent","cavalion.org/data/SourceState","cavalion.org/util/Ajax","cavalion.org/util/Browser","cavalion.org/util/DocumentHook","cavalion.org/util/Event","cavalion.org/util/HotkeyManager","cavalion.org/util/HtmlElement","cavalion.org/util/Keyboard","cavalion.org/util/Rest","cavalion.org/util/Stylesheet","cavalion.org/util/net/Url","chartjs.org/Chart","chartjs.org/Chart.src","dygraphs.com/Dygraph","dygraphs.com/dygraph-combined","entities/EM","entities/ExpressionBuilder","entities/Instance","entities/scaffold","js","js/Class","js/Deferred","js/Enum","js/JsObject","js/Method","js/Property","js/Scaffold","js/Type","js/_js","js/beautify","js/defineClass","js/extensions","js/global","js/minify","js/mixIn","js/nameOf","js/referenceClass","js/serialize","main","scaffold","text","vcl/Action","vcl/Application","vcl/Component","vcl/Control","vcl/ControlUpdater","vcl/CssRules","vcl/Dragger","vcl/EventDispatcher","vcl/Factory","vcl/Factory.parse","vcl/Listeners","vcl/data/Array","vcl/entities/Query","vcl/ui/Ace","vcl/ui/Button","vcl/ui/CheckGroup","vcl/ui/Console","vcl/ui/Container","vcl/ui/Element","vcl/ui/Form","vcl/ui/FormContainer","vcl/ui/Group","vcl/ui/Input","vcl/ui/LargeIcon","vcl/ui/List","vcl/ui/ListBody","vcl/ui/ListColumn","vcl/ui/ListFooter","vcl/ui/ListHeader","vcl/ui/ListRow","vcl/ui/Node","vcl/ui/Node.closeable","vcl/ui/Panel","vcl/ui/Select","vcl/ui/Sizer","vcl/ui/Tab","vcl/ui/Tabs","vcl/ui/Tree"]
+}
